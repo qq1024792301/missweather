@@ -1,6 +1,8 @@
 <litepal>
-    <dbname values = "miss_weather"/>
-    <version values="1"/>
+    <dbname value ="miss_weather"/>
+
+    <version value= "1"/>
+
     <list>
         <mapping class = "com.missweather.android.db.Province"/>
         <mapping class = "com.missweather.android.db.County"/>

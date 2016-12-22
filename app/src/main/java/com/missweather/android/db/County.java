@@ -13,6 +13,8 @@ public class County extends DataSupport {
     //记录当前县所对应的天气Id
     private String weatherId;
 
+    private int cityId;
+
     public String getWeatherId() {
         return weatherId;
     }
@@ -35,5 +37,13 @@ public class County extends DataSupport {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getCityId() {
+        return cityId;
+    }
+
+    public void setCityId(int cityId) {
+        this.cityId = cityId;
     }
 }
